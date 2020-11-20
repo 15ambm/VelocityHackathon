@@ -4,7 +4,7 @@ import Tab from 'react-bootstrap/Tab'
 import Tabs from 'react-bootstrap/Tabs'
 import Rewards from './components/Rewards'
 import Workout from './components/Workout'
-
+import Feed from './components/Feed'
 function App() {
 
 
@@ -20,7 +20,9 @@ function App() {
       <Workout></Workout>
     </Tab>
     <Tab eventKey="profile" title="Profile">Profile Screen</Tab>
-    <Tab eventKey="contact" title="Contact">Contact</Tab>
+    <Tab eventKey="feed" title="Feed">
+      <Feed></Feed>
+    </Tab>
     <Tab eventKey="reward" title="Rewards">
       <Rewards></Rewards>
     </Tab>
